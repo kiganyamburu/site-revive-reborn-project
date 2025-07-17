@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const Navigation = () => {
   const navItems = [
     { name: "Home", href: "/" },
-    { name: "About Us", href: "#about" },
+    { name: "About Dr. Rodriguez", href: "/about" },
     { name: "Services", href: "/services" },
-    { name: "Testimonials", href: "#testimonials" },
-    { name: "Location", href: "#location" },
-    { name: "Contact Us", href: "#contact" },
+    { name: "Client Stories", href: "/testimonials" },
+    { name: "Office & Hours", href: "/location" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (
@@ -22,7 +22,9 @@ const Navigation = () => {
               <div className="absolute inset-1 bg-hero-green transform -rotate-45 rounded-sm"></div>
             </div>
           </div>
-          <span className="text-xl font-semibold text-primary">Mind Haven</span>
+          <span className="text-xl font-semibold text-primary">
+            Dr. Sarah Rodriguez
+          </span>
         </Link>
 
         {/* Navigation Items */}
